@@ -1,4 +1,4 @@
-package com.joseph.muchori.recipeapp
+package com.joseph.muchori.recipeapp.data.network
 
 import com.joseph.muchori.recipeapp.models.FoodRecipe
 import retrofit2.Response

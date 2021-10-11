@@ -1,4 +1,4 @@
-package com.joseph.muchori.recipeapp
+package com.joseph.muchori.recipeapp.util
 
 class Constants {
     companion object {
