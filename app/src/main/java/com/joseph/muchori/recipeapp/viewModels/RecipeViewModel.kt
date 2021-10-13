@@ -1,7 +1,6 @@
 package com.joseph.muchori.recipeapp.viewModels
 
 import android.app.Application
-import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.joseph.muchori.recipeapp.data.DataStoreRepository
@@ -30,7 +29,7 @@ class RecipeViewModel @Inject constructor(
     private var mealType = DEFAULT_MEAL_TYPE
     private var dietType = DEFAULT_DIET_TYPE
 
-    private val readMealAndDietType = dataStoreRepository.readMealAndDietType
+    val readMealAndDietType = dataStoreRepository.readMealAndDietType
 
     fun saveMealAndDietType(mealType: String, mealTypeId: Int, dietType: String, dietTypeId: Int ) = viewModelScope.launch(Dispatchers.IO) {
         dataStoreRepository.saveMealAndDietType(mealType, mealTypeId, dietType, dietTypeId)
