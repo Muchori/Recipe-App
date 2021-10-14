@@ -7,6 +7,7 @@ class Constants {
         const val API_KEY = "134c975480954133963b85fb9d6aab67"
 
         //API Query keys
+        const val QUERY_SEARCH= "query"
         const val QUERY_NUMBER = "number"
         const val QUERY_API_KEY = "apiKey"
         const val QUERY_TYPE = "type"
@@ -22,7 +23,7 @@ class Constants {
         const val RECIPES_TABLE = "recipes_table"
 
         //Bottom sheet and Preferences
-        const val DEFAULT_RECIPE_NUMBER = "100"
+        const val DEFAULT_RECIPE_NUMBER = "1000"
         const val DEFAULT_MEAL_TYPE = "main course"
         const val DEFAULT_DIET_TYPE = "gluten free"
 
@@ -31,6 +32,8 @@ class Constants {
         const val PREFERENCES_MEAL_TYPE_ID = "mealTypeId"
         const val PREFERENCES_DIET_TYPE = "dietType"
         const val PREFERENCES_DIET_TYPE_ID = "dietTypeId"
+
+        const val PREFERENCES_BACK_ONLINE = "backOnline"
 
 
     }

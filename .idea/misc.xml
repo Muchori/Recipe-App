@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_error_placeholder.xml" value="0.20974358974358975" />
+        <entry key="app/src/main/res/layout/activity_details.xml" value="0.27239583333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.15" />
         <entry key="app/src/main/res/layout/fragment_favourite_recipes.xml" value="0.18333333333333332" />
         <entry key="app/src/main/res/layout/fragment_food_joke.xml" value="0.196875" />
@@ -14,6 +15,7 @@
         <entry key="app/src/main/res/layout/recipes_layout_row_temp.xml" value="0.196875" />
         <entry key="app/src/main/res/layout/recipes_row_layout.xml" value="0.196875" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.196875" />
+        <entry key="app/src/main/res/menu/recipes_menu.xml" value="0.27239583333333334" />
       </map>
     </option>
   </component>
